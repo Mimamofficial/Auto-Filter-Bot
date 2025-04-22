@@ -64,7 +64,7 @@ if len(FORCE_SUB_CHANNELS) == 0:
     logger.info('FORCE_SUB_CHANNELS is empty')
     
 # support group
-SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '-1001837163489')
+SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '-1001991790282')
 if len(SUPPORT_GROUP) == 0:
     logger.error('SUPPORT_GROUP is missing, exiting now')
     exit()
