@@ -24,17 +24,17 @@ def is_valid_ip(ip):
 # Bot information
 API_ID = environ.get('API_ID', '23631217')
 if len(API_ID) == 0:
-    logger.error('API_ID is missing, exiting now')
+    logger.error('API_ID')
     exit()
 else:
     API_ID = int(API_ID)
 API_HASH = environ.get('API_HASH', '567c6df308dc6901790309499f729d12')
 if len(API_HASH) == 0:
-    logger.error('API_HASH is missing, exiting now')
+    logger.error('API_HASH')
     exit()
 BOT_TOKEN = environ.get('BOT_TOKEN', '7868586072:AAFIrf8Ygo_QdiqnvgZvUx9jGZH1IpekpKA')
 if len(BOT_TOKEN) == 0:
-    logger.error('BOT_TOKEN is missing, exiting now')
+    logger.error('BOT_TOKEN')
     exit()
 PORT = int(environ.get('PORT', '8080'))
 
@@ -44,7 +44,7 @@ PICS = (environ.get('PICS', 'https://i.postimg.cc/8C15CQ5y/1.png https://i.posti
 # Bot Admins
 ADMINS = environ.get('ADMINS', '6139759254')
 if len(ADMINS) == 0:
-    logger.error('ADMINS is missing, exiting now')
+    logger.error('ADMINS')
     exit()
 else:
     ADMINS = [int(admins) for admins in ADMINS.split()]
@@ -55,7 +55,7 @@ if len(INDEX_CHANNELS) == 0:
     logger.info('INDEX_CHANNELS is empty')
 LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002338765286')
 if len(LOG_CHANNEL) == 0:
-    logger.error('LOG_CHANNEL is missing, exiting now')
+    logger.error('LOG_CHANNEL')
     exit()
 else:
     LOG_CHANNEL = int(LOG_CHANNEL)
