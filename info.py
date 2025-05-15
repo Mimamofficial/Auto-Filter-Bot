@@ -85,7 +85,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 # Links
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Tv_Serial_Search_Group')
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/MRN_RIPPER')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/+D0n17vzIFMcxMDE1')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/+dt5i84djlh4wNGM1')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/MRN_Tutorial/1807")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/MRN_Tutorial/1807")
 
