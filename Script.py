@@ -4,16 +4,16 @@ class script(object):
     
 ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴀꜱ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ... ɪᴛ'ꜱ ᴇᴀꜱʏ ᴛᴏ ᴜꜱᴇ ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀꜱ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ʏᴏᴜʀ ʟɪɴᴋ ꜱʜᴏʀᴛᴇɴᴇʀ... ♻️</b>"""
 
-    MY_ABOUT_TXT = """★ Server: <a href=https://www.heroku.com>Heroku</a>
+    MY_ABOUT_TXT = """<b>★ Server: <a href=https://www.heroku.com>Heroku</a>
 ★ Database: <a href=https://www.mongodb.com>MongoDB</a>
 ★ Language: <a href=https://www.python.org>Python</a>
-★ Library: <a href=https://t.me/HydrogramNews>Hydrogram</a>"""
+★ Library: <a href=https://t.me/HydrogramNews>Hydrogram</a></b>"""
 
-    MY_OWNER_TXT = """★ Name: HA Bots
-★ Username: @HA_Bots
-★ Country: Sri Lanka 🇱🇰"""
+    MY_OWNER_TXT = """<b>★ Mʏ Nᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
+★ Cʀᴇᴀᴛᴏʀ : <a href={}>꧁𓊈𒆜𝖒𝖎𝖒𝖆𝖒_𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑𒆜𓊉꧂</a> 
+★ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ4.8 [ ꜱᴛᴀʙʟᴇ ]</b>"""
 
-    STATUS_TXT = """👤 Total Users: <code>{}</code>
+    STATUS_TXT = """<b>👤 Total Users: <code>{}</code>
 😎 Premium Users: <code>{}</code>
 👥 Total Chats: <code>{}</code>
 🗳 Data database used: <code>{}</code>
@@ -24,25 +24,25 @@ class script(object):
 🗂 2nd database Files: <code>{}</code>
 🗳 2nd files database used: <code>{}</code>
 
-🚀 Bot Uptime: <code>{}</code>"""
+🚀 Bot Uptime: <code>{}</code></b>"""
 
-    NEW_GROUP_TXT = """#NewGroup
+    NEW_GROUP_TXT = """<b>#NewGroup
 Title - {}
 ID - <code>{}</code>
 Username - {}
-Total - <code>{}</code>"""
+Total - <code>{}</code></b>"""
 
-    NEW_USER_TXT = """#NewUser
+    NEW_USER_TXT = """<b>#NewUser
 ★ Name: {}
-★ ID: <code>{}</code>"""
+★ ID: <code>{}</code></b>"""
 
-    NOT_FILE_TXT = """👋 Hello {},
+    NOT_FILE_TXT = """<b>👋 Hello {},
 
 I can't find the <b>{}</b> in my database! 🥲
 
 👉 Google Search and check your spelling is correct.
 👉 Please read the Instructions to get better results.
-👉 Or not been released yet."""
+👉 Or not been released yet.</b>"""
     
     EARN_TXT = """<b>ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ꜰʀᴏᴍ ᴛʜɪs ʙᴏᴛ
 
@@ -72,7 +72,7 @@ I can't find the <b>{}</b> in my database! 🥲
 
 📝 ɴᴏᴛᴇ:- ʏᴏᴜ sʜᴏᴜʟᴅ ɴᴏᴛ ʙᴇ ᴀɴ ᴀɴᴏɴʏᴍᴏᴜs ᴀᴅᴍɪɴ ɪɴ ɢʀᴏᴜᴘ. sᴇɴᴅ ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜᴏᴜᴛ ʙᴇɪɴɢ ᴀɴ ᴀɴᴏɴʏᴍᴜs ᴀᴅᴍɪɴ.</b>"""
 
-    IMDB_TEMPLATE = """✅ I Found: <code>{query}</code>
+    IMDB_TEMPLATE = """<b>✅ I Found: <code>{query}</code>
 
 🏷 Title: <a href={url}>{title}</a>
 🎭 Genres: {genres}
@@ -84,11 +84,9 @@ I can't find the <b>{}</b> in my database! 🥲
 🗣 Requested by: {message.from_user.mention}
 ©️ Powered by: <b>{message.chat.title}</b>"""
 
-    FILE_CAPTION = """<i>{file_name}</i>
+    FILE_CAPTION = """<b><a href="https://t.me/+dt5i84djlh4wNGM1">{file_name}</a></b>\n\n•─────•─────────•─────•\n<b>✯ 𝖩𝗈𝗂𝗇 ➥ <a https://t.me/+dt5i84djlh4wNGM1>[🍿 @MRN_RIPPER 🍿 ]\n✯ 𝖩𝗈𝗂𝗇 ➥  [🍿 @MRN_MOVIES_SEARCH_GROUP 🍿]\n•─────•─────────•─────•</a></b>"""
 
-🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ 🚫"""
-
-    WELCOME_TEXT = """👋 Hello {mention}, Welcome to {title} group! 💞"""
+    WELCOME_TEXT = """<b>👋 Hello {mention}, Welcome to {title} group! 💞</b>"""
 
     HELP_TXT = """<b>Note - <spoiler>Try each command without any argument to see more details 😹</spoiler></b>"""
     
@@ -114,23 +112,33 @@ I can't find the <b>{}</b> in my database! 🥲
 /set_req_fsub - to set request force subscribe channel
 /set_fsub - to set force subscribe channels</b>"""
     
-    PLAN_TXT = """Activate any premium plan to get exclusive features.
+    PLAN_TXT = """<blockquote>🎖️ <b>ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs</b></blockquote>
 
-You can activate any premium plan and then you can get exclusive features.
+<b>✅New Plans For TV Shows Premium Channel😍
 
-- INR 10 for pre day -
+[MRN Premium Tv, 🎞All Indian Hindi TV Shows ]
+•─────•─────────•─────•
+⚡️>>> Rs. 100 -  1 Month
+⚡️>>> Rs. 200 -  2 Month
+⚡️>>> Rs. 300 -  3 Month
+⚡️>>> Rs. 400 -  4 Month
+⚡️>>> Rs. 499 -  5 Month
+•─────•─────────•─────•
+🚨These Prices Are Now Permanent Plans.
 
-Basic premium features:
-Ad free experience
-Online watch and fast download
-No need joind channels
-No need verify
-No shortlink
-Admins support
-And more...
+✅1-Day Demo/Trial Also Available Here.
 
-Support:
-@Hansaka_Anuhas"""
+OTT: Hotstar, ZEE5, JioCinema, SONYLIV, DangalPlay, 
+ShemarooMe, EpicOn Etc. all OTT Movies and Webseries available
+
+⚡️Grab It Fast ASAP😘 [💯Trusted]
+•─────•─────────•─────•
+💰ᴜᴘɪ ɪᴅ ➢ <code>md-muzaffar-imam@axl</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
+
+💵 <a href='https://t.me/mimam_officialx'>𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗣𝗧𝗜𝗢𝗡 𝗗𝗠 ꧁𓊈𒆜𝖒𝖎𝖒𝖆𝖒_𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑𒆜𓊉꧂ 💸</a>
+
+‼️ ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
+‼️ ᴀꜰᴛᴇʀ ꜱᴇɴᴅɪɴɢ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇꜱ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ.</b>"""
 
     USER_COMMAND_TXT = """<b>Here is bot user commands 👇
 
@@ -142,10 +150,4 @@ Support:
 /connect - to connect group settings to PM
 /id - to check group or channel id</b>"""
     
-    SOURCE_TXT = """<b>ʙᴏᴛ ɢɪᴛʜᴜʙ ʀᴇᴘᴏsɪᴛᴏʀʏ -
-
-- ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
-
-- ꜱᴏᴜʀᴄᴇ - <a href=https://github.com/HA-Bots/Auto-Filter-Bot>ʜᴇʀᴇ</a>
-
-- ᴅᴇᴠʟᴏᴘᴇʀ - @HA_Bots"""
+    SOURCE_TXT =  """<b>Nᴏᴛᴇ: \n\n𝐖𝐚𝐧𝐭 𝐀 𝐁𝐨𝐭 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:\n\n✭ I ᴡɪʟʟ ᴄʀᴇᴀᴛᴇ ᴏɴᴇ ʙᴏᴛ ғᴏʀ ʏᴏᴜ.\n✭ Cᴏɴᴛᴀᴄᴛ ᴛᴏ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ ☟</b>"""
