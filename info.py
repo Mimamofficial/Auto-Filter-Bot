@@ -115,8 +115,8 @@ LINK_MODE = is_enabled("LINK_MODE", True)
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 IMDB = is_enabled('IMDB', True)
 SPELL_CHECK = is_enabled("SPELL_CHECK", True)
-SHORTLINK = is_enabled('SHORTLINK', False)
-PM_SEARCH = is_enabled('PM_SEARCH', True)
+SHORTLINK = is_enabled('SHORTLINK', True)
+PM_SEARCH = is_enabled('PM_SEARCH', False)
 
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', True)
