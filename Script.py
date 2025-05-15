@@ -9,8 +9,8 @@ class script(object):
 ★ Language: <a href=https://www.python.org>Python</a>
 ★ Library: <a href=https://t.me/HydrogramNews>Hydrogram</a></b>"""
 
-    MY_OWNER_TXT = """<b>★ Mʏ Nᴀᴍᴇ : <a href=https://t.me/mimam_officialx{꧁𓊈𒆜𝖒𝖎𝖒𝖆𝖒_𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑𒆜𓊉꧂}>{꧁𓊈𒆜𝖒𝖎𝖒𝖆𝖒_𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑𒆜𓊉꧂}</a>
-★ Cʀᴇᴀᴛᴏʀ : <a href={https://t.me/mimam_officialx}>꧁𓊈𒆜𝖒𝖎𝖒𝖆𝖒_𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑𒆜𓊉꧂</a> 
+    MY_OWNER_TXT = """<b>★ Mʏ Nᴀᴍᴇ : [𝐌𝐳 𝐀𝐮𝐭𝐨𝐅𝐢𝐥𝐭𝐞𝐫 𝐁𝐨𝐭🧿](https://t.me/MZ_AUTOFILTER_BOT)
+★ Cʀᴇᴀᴛᴏʀ : [꧁𓊈𒆜𝖒𝖎𝖒𝖆𝖒_𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑𒆜𓊉꧂](https://t.me/mimam_officialx)
 ★ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ4.8 [ ꜱᴛᴀʙʟᴇ ]</b>"""
 
     STATUS_TXT = """<b>👤 Total Users: <code>{}</code>
