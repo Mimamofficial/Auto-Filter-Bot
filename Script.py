@@ -14,11 +14,11 @@ class script(object):
 ├⍟ 🥶 Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ4.8 [ ꜱᴛᴀʙʟᴇ ]
 ╰───────────────⍟</b>"""
 
-    MY_OWNER_TXT = """★ Name: ꧁𓊈𒆜𝖒𝖎𝖒𝖆𝖒_𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑𒆜𓊉꧂
+    MY_OWNER_TXT = """<b>★ Name: ꧁𓊈𒆜𝖒𝖎𝖒𝖆𝖒_𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑𒆜𓊉꧂
 ★ Username: @mimam_officialx
-★ Country: India 🇮🇳"""
+★ Country: India 🇮🇳</b>"""
 
-    STATUS_TXT = """👤 Total Users: <code>{}</code>
+    STATUS_TXT = """<b>👤 Total Users: <code>{}</code>
 😎 Premium Users: <code>{}</code>
 👥 Total Chats: <code>{}</code>
 🗳 Data database used: <code>{}</code>
@@ -29,7 +29,7 @@ class script(object):
 🗂 2nd database Files: <code>{}</code>
 🗳 2nd files database used: <code>{}</code>
 
-🚀 Bot Uptime: <code>{}</code>"""
+🚀 Bot Uptime: <code>{}</code></b>"""
 
     NEW_GROUP_TXT = """#NewGroup
 Title - {}
@@ -91,7 +91,7 @@ I can't find the <b>{}</b> in my database! 🥲
 
     FILE_CAPTION = """<b><a href="https://t.me/+dt5i84djlh4wNGM1">{file_name}</a></b>\n\n•─────•─────────•─────•\n<b>✯ 𝖩𝗈𝗂𝗇 ➥ <a https://t.me/+dt5i84djlh4wNGM1>[🍿 @MRN_RIPPER 🍿 ]\n✯ 𝖩𝗈𝗂𝗇 ➥ [🍿 @MRN_MOVIES_SEARCH_GROUP 🍿]\n•─────•─────────•─────•</a></b>"""
 
-    WELCOME_TEXT = """👋 Hello {mention}, Welcome to {title} group! 💞"""
+    WELCOME_TEXT = """<b>👋 Hello {mention}, Welcome to {title} group! 💞</b>"""
 
     HELP_TXT = """<b>Note - <spoiler>Try each command without any argument to see more details 😹</spoiler></b>"""
     
@@ -117,7 +117,7 @@ I can't find the <b>{}</b> in my database! 🥲
 /set_req_fsub - to set request force subscribe channel
 /set_fsub - to set force subscribe channels</b>"""
     
-    PLAN_TXT = """Activate any premium plan to get exclusive features.
+    PLAN_TXT = """<b>Activate any premium plan to get exclusive features.
 
 You can activate any premium plan and then you can get exclusive features.
 
@@ -133,7 +133,7 @@ Admins support
 And more...
 
 Support:
-@mimam_officialx"""
+@mimam_officialx</b>"""
 
     USER_COMMAND_TXT = """<b>Here is bot user commands 👇
 
@@ -151,5 +151,5 @@ Support:
 
 - ꜱᴏᴜʀᴄᴇ - <a href=https://t.me/mimam_officialx>꧁𓊈𒆜𝖒𝖎𝖒𝖆𝖒_𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑𒆜𓊉꧂</a>
 
-- ᴅᴇᴠʟᴏᴘᴇʀ - ꧁𓊈𒆜𝖒𝖎𝖒𝖆𝖒_𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑𒆜𓊉꧂"""
+- ᴅᴇᴠʟᴏᴘᴇʀ - ꧁𓊈𒆜𝖒𝖎𝖒𝖆𝖒_𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑𒆜𓊉꧂</b>"""
 
