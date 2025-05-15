@@ -447,9 +447,9 @@ async def myplan(client, message):
 @Client.on_message(filters.command('plan') & filters.private)
 async def plan(client, message):
     btn = [[
-        InlineKeyboardButton('💝 𝐒𝐄𝐍𝐃 𝐏𝐀𝐘𝐌𝐄𝐍𝐓 𝐒𝐂𝐑𝐄𝐄𝐍𝐒𝐇𝐎𝐓 💝', url='https://t.me/mimam_officialx')
+        InlineKeyboardButton('𝗦𝗘𝗡𝗗 𝗣𝗔𝗬𝗠𝗘𝗡𝗧 𝗦𝗖𝗥𝗘𝗘𝗡𝗦𝗛𝗢𝗧', url='activate_trial')
     ],[
-        InlineKeyboardButton(🌿 𝐉𝐎𝐈𝐍 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐌𝐑𝐍 𝐑𝐈𝐏𝐏𝐄𝐑 🌿', url='https://t.me/MRN_RIPPER')
+        InlineKeyboardButton('𝗥𝗘𝗤𝗨𝗘𝗦𝗧 𝗚𝗥𝗢𝗨𝗣', url='https://t.me/MRN_Movies_Search_Group')
     ]]
     await message.reply(script.PLAN_TXT, reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
 
