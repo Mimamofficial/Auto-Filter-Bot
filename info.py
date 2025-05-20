@@ -126,16 +126,16 @@ if len(BIN_CHANNEL) == 0:
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "https://subjective-silvana-mimammz-56d5e799.koyeb.app/")
+URL = environ.get("URL", "https://auto-filter-bot-1-msu7.onrender.com")
 if len(URL) == 0:
     logger.error('URL is missing, exiting now')
     exit()
 else:
-    if URL.startswith(('https://subjective-silvana-mimammz-56d5e799.koyeb.app/', 'https://subjective-silvana-mimammz-56d5e799.koyeb.app/')):
+    if URL.startswith(('https://auto-filter-bot-1-msu7.onrender.com', 'https://auto-filter-bot-1-msu7.onrender.com')):
         if not URL.endswith("/"):
             URL += '/'
     elif is_valid_ip(URL):
-        URL = f'http://{URL}/'
+        URL = f'https://auto-filter-bot-1-msu7.onrender.com'
     else:
         logger.error('URL is not valid, exiting now')
         exit()
@@ -146,7 +146,7 @@ STICKERS = [sticker for sticker in environ.get('STICKERS', 'CAACAgIAAxkBAAEN4ctn
 
 
 # for Premium 
-PRE_DAY_AMOUNT = int(environ.get('PRE_DAY_AMOUNT', '10')) # add amount in INR for premium charge pre day 
+PRE_DAY_AMOUNT = int(environ.get('PRE_DAY_AMOUNT', '2')) # add amount in INR for premium charge pre day 
 UPI_ID = environ.get("UPI_ID", "md-muzaffar-imam@axl")
 if len(UPI_ID) == 0:
     logger.error('UPI_ID is missing, exiting now')
