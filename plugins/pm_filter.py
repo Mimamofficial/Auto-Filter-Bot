@@ -703,6 +703,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "source":
         buttons = [[
+            InlineKeyboardButton('💌 𝐂𝐨𝐧𝐭𝐚𝐜𝐭', url='https://t.me/mimam_officialx'),
             InlineKeyboardButton('≼ ʙᴀᴄᴋ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
