@@ -81,7 +81,7 @@ I can't find the <b>{}</b> in my database! 🥲
 🗣 Requested by: {message.from_user.mention}
 ©️ Powered by: <b>{message.chat.title}</b>"""
 
-    FILE_CAPTION = """<b><a href="https://t.me/+dt5i84djlh4wNGM1">{file_name}</a></b>\n\n•─────•─────────•─────•\n<b>✯ 𝖩𝗈𝗂𝗇 ➥ <a https://t.me/+dt5i84djlh4wNGM1>[🍿 @MRN_RIPPER 🍿 ]\n✯ 𝖩𝗈𝗂𝗇 ➥  [🍿 @MRN_MOVIES_SEARCH_GROUP 🍿]\n•─────•─────────•─────•</a></b>"""
+    FILE_CAPTION = """<b><a href="https://t.me/MRN_RIPPER">{file_name}</a></b>\n\n•─────•─────────•─────•\n<b>✯ 𝖩𝗈𝗂𝗇 ➥ <a https://t.me/MRN_RIPPER>[🍿 @MRN_RIPPER 🍿 ]\n✯ 𝖩𝗈𝗂𝗇 ➥  [🍿 @MRN_MOVIES_SEARCH_GROUP 🍿]\n•─────•─────────•─────•</a></b>"""
 
     WELCOME_TEXT = """<b>👋 Hello {mention}, Welcome to {title} group! 💞</b>"""
 
