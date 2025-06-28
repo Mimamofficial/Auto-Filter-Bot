@@ -83,11 +83,11 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Tv_Serial_Search_Group')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Movies_Tv_Serial_Request')
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/MRN_RIPPER')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/+dt5i84djlh4wNGM1')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/MRN_Tutorial/1807")
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/MRN_Tutorial/1807")
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/MRN_RIPPER')
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/MRN_Tutorial/1805")
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/MRN_Tutorial/1805")
 
 # Bot settings
 DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds
@@ -97,8 +97,8 @@ LANGUAGES = [language.lower() for language in environ.get('LANGUAGES', 'hindi en
 QUALITY = [quality.lower() for quality in environ.get('QUALITY', '360p 480p 720p 1080p 2160p').split()]
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "shortner.in")
-SHORTLINK_API = environ.get("SHORTLINK_API", "931dc3d2b822191032f43d523eae9de35fcc808c")
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "papajiurl.com")
+SHORTLINK_API = environ.get("SHORTLINK_API", "f2566f9573335044e60a2d14d537931e0a9ecd8d")
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
