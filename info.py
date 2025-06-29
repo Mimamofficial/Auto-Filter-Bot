@@ -126,16 +126,16 @@ if len(BIN_CHANNEL) == 0:
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "https://classic-chloette-muzaffar-e48d99ba.koyeb.app/")
+URL = environ.get("URL", "https://mimam-officialx-637affa2.koyeb.app/")
 if len(URL) == 0:
     logger.error('URL is missing, exiting now')
     exit()
 else:
-    if URL.startswith(('https://classic-chloette-muzaffar-e48d99ba.koyeb.app/', 'https://classic-chloette-muzaffar-e48d99ba.koyeb.app/')):
+    if URL.startswith(('https://mimam-officialx-637affa2.koyeb.app/', 'https://mimam-officialx-637affa2.koyeb.app/')):
         if not URL.endswith("/"):
             URL += '/'
     elif is_valid_ip(URL):
-        URL = f'https://classic-chloette-muzaffar-e48d99ba.koyeb.app/'
+        URL = f'https://mimam-officialx-637affa2.koyeb.app/'
     else:
         logger.error('URL is not valid, exiting now')
         exit()
