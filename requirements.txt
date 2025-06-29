@@ -1,7 +1,13 @@
-services:
-  - name: auto-filter-bot
-    type: web
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python bot.py"
-    plan: free
+hydrogram
+tgcrypto
+pymongo
+cinemagoer
+shortzy
+aiohttp
+aiofiles
+speedtest-cli
+uvloop
+requests
+qrcode
+Pillow
+pytz
